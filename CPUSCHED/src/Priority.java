@@ -64,7 +64,7 @@ public class Priority implements ActionListener{
             getInput(bt,pt);
             InsideScrollBar();
 
-            TopPnl.setBounds(0, 0, 710, 94);
+            TopPnl.setBounds(0, 0, 1000, 94);
             CenterPnl.setLocation(0, 94);
             view.setBounds(0, 94, 710, 300);
             btnTop.setBounds(0, 380, 710, 280);

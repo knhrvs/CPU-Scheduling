@@ -17,6 +17,13 @@ import static javax.swing.JFrame.EXIT_ON_CLOSE;
 import javax.swing.JLabel;
 import javax.swing.JProgressBar;
 
+
+
+
+
+
+
+
 class Intro{
     int i = 0; int count =0;
     JFrame frame;
@@ -277,25 +284,3 @@ class Menu extends JFrame implements ActionListener{
 
 }
 
-
-//------------------RUN--------------------------------------------------------//
- public class OS_PROJECT {   
-    public static void main(String[] args) {
-        Intro intro = new Intro();
-        intro.frame.setVisible(true);
-        intro.frame.setDefaultCloseOperation(EXIT_ON_CLOSE);
-        try{
-            for (int i = 0; i<=100; i++){
-                Thread.sleep(20);
-                intro.pb.setValue(i);
-                if(i==100){
-                    intro.pb.setVisible(false);
-                    intro.frame.setVisible(false);
-                    intro.frame.dispose();
-                    Menu menu = new Menu();
-                    menu.setVisible(true);
-                }
-            }
-        } catch (InterruptedException ex) {}
-    }
-}
