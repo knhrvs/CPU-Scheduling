@@ -130,10 +130,10 @@ public class compute extends JFrame implements ActionListener{
         jp.setBackground(Color.WHITE);
         
         this.add(js);
-        js.setPreferredSize(new Dimension(450,500));
+        js.setPreferredSize(new Dimension(510,500));
         this.add(btnPnl, BorderLayout.SOUTH);
         this.getContentPane().add(bg, BorderLayout.NORTH);
-        this.setSize(510, 550);    
+        this.setSize(510, 550);
         this.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
         this.setLocationRelativeTo(null);
         this.setResizable(false);

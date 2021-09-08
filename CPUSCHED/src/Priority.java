@@ -263,7 +263,7 @@ public class Priority implements ActionListener{
 	        Ps[i].setHorizontalTextPosition(JLabel.CENTER);        
 	        Ps[i].setBorder(BorderFactory.createLineBorder(Color.BLACK)); 
 	        tempo = ct[i] + 50;
-	        Ps[i].setBounds(50, 380, i*100 + tempo, 30);
+	        Ps[i].setBounds(50, 380, i*100 + tempo, 50);
 	        btnTop.add(Ps[i]);
 	    }
          if(trigger == true){ 

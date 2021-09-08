@@ -299,7 +299,7 @@ public class RoundRobin implements ActionListener{
 	        Ps[i].setBorder(BorderFactory.createLineBorder(Color.BLACK)); 
 	        tempo = i;
 	        if(i==0) tempo = 1;
-	        Ps[i].setBounds(50, 380, tempo*50, 30);
+	        Ps[i].setBounds(50, 380, tempo*50, 50);
 	        btnTop.add(Ps[i]); 
 	    }
        
